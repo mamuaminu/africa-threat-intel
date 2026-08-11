@@ -1,66 +1,63 @@
-# 🌍 Africa Threat Intelligence Aggregator
+# 🛡️ Africa OSINT Threat Intel Aggregator
 
-> Automated daily threat briefings for African infrastructure — CVEs, active threat pulses, ransomware advisories, and actionable recommendations.
+Automated threat intelligence briefings for African infrastructure.
 
-## Overview
-
-This repo is auto-updated daily with threat intelligence relevant to African organizations. It scrapes and aggregates:
-- **CISA Known Exploited Vulnerabilities (KEV) Catalog**
-- **AlienVault Open Threat Exchange (OTX) pulses**
-- **NIST National Vulnerability Database (NVD)**
-- **CISA Ransomware Advisories**
-
-Coverage: Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
-
-## Automated Build
-
-Runs nightly at midnight UTC via Sakamoto cron job. Generates `threat-briefing-YYYY-MM-DD.md` in the `briefings/` directory.
-
-## Briefings Structure
-
-Each briefing contains:
-- **Critical CVEs** from CISA KEV catalog affecting African infrastructure
-- **Active Threat Pulses** from AlienVault OTX
-- **Top CVEs by Severity** from NVD
-- **Recommended Actions** — immediate, short-term, and medium-term
-- **Ransomware Advisories** from CISA
-- **Data Sources** and freshness timestamps
-
-## Sample Use
+## ⚡ Quick Start
 
 ```bash
-# Pull latest briefing
-git pull
-
-# Read today's briefing
-cat briefings/threat-briefing-$(date +%Y-%m-%d).md
-
-# Search for a specific country
-grep -i "nigeria\|kenya\|south africa" briefings/*.md
-
-# Check for critical CVEs
-grep -i "CRITICAL\|CVE-2024" briefings/*.md
+node scripts/sakamoto-build.js
 ```
 
-## Country Coverage
+Output: `THREAT_BRIEF.md` - Full markdown briefing
 
-| Country | Status |
-|---------|--------|
-| 🇳🇬 Nigeria | Active |
-| 🇰🇪 Kenya | Active |
-| 🇿🇦 South Africa | Active |
-| 🇬🇭 Ghana | Active |
-| 🇪🇬 Egypt | Active |
-| 🇲🇦 Morocco | Active |
-| 🇹🇿 Tanzania | Active |
-| 🇺🇬 Uganda | Active |
-| 🇩🇿 Algeria | Active |
-| 🇪🇹 Ethiopia | Active |
+## 📊 Coverage
 
-## Contributing
+**Countries:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
-Found a threat intel source for African infrastructure? Open an issue or PR.
+**Sectors:** Banking & Finance, Telecom, Government, Energy/Utilities, Healthcare
 
-## Disclaimer
+**Data Sources:**
+- NVD/NIST CVE Database (requires API key)
+- AlienVault OTX pulses
+- Emerging Threats blocklists
+- Abuse.ch ThreatFox IOCs
+- CISA KEV Catalog
+- Curated static threat intelligence
 
-This is an automated aggregation of publicly available threat intelligence. Verify all indicators before acting on them.
+## 🔧 Configuration
+
+### NVD API Key (optional)
+Get a free API key at https://nvd.nist.gov/developers/api-keys
+
+```bash
+export NVD_API_KEY="your-key-here"
+```
+
+## 📁 Structure
+
+```
+africa-threat-intel/
+├── THREAT_BRIEF.md      # Latest briefing
+├── threat-data.json     # Raw JSON data
+├── scripts/
+│   └── sakamoto-build.js
+├── briefings/           # Historical briefings
+└── README.md
+```
+
+## 🤖 Automation
+
+Run via cron for daily briefings:
+
+```cron
+0 8 * * * cd /home/ubuntu/.openclaw/workspace/africa-threat-intel && node scripts/sakamoto-build.js && git add -A && git commit -m "Brief $(date +\%Y-\%m-\%d)" && git push
+```
+
+## ⚠️ Disclaimer
+
+This tool is for **informational purposes only**. All data is sourced from public OSINT. 
+No warranty expressed or implied. Verify independently before taking action.
+
+---
+
+*Built fast. Shipped tonight. ~ Sakamoto*
