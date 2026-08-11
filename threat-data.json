@@ -1,0 +1,358 @@
+{
+  "cves": [
+    {
+      "id": "CVE-2024-3094",
+      "cvss": 10,
+      "severity": "CRITICAL",
+      "vendor": "XZ Utils",
+      "product": "liblzma",
+      "desc": "Malicious code in XZ Utils versions 5.6.0-5.6.1 allowed remote attackers to compromise sshd via supply chain attack.",
+      "published": "2026-08-01"
+    },
+    {
+      "id": "CVE-2024-23897",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "Jenkins",
+      "product": "Jenkins",
+      "desc": "Jenkins CLI argument parsing flaw allowed attackers to read arbitrary files on the Jenkins controller filesystem.",
+      "published": "2026-07-15"
+    },
+    {
+      "id": "CVE-2024-27198",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "desc": "Authentication bypass in JetBrains TeamCity allowed unauthenticated remote code execution.",
+      "published": "2026-07-10"
+    },
+    {
+      "id": "CVE-2023-46805",
+      "cvss": 9.1,
+      "severity": "CRITICAL",
+      "vendor": "Ivanti",
+      "product": "Connect Secure",
+      "desc": "Ivanti Connect Secure and Policy Secure authentication bypass vulnerability.",
+      "published": "2026-06-20"
+    },
+    {
+      "id": "CVE-2023-48795",
+      "cvss": 8.8,
+      "severity": "HIGH",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "desc": "FortiOS SSH connection vulnerability allowed remote attackers to bypass authentication.",
+      "published": "2026-06-15"
+    },
+    {
+      "id": "CVE-2024-23113",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "desc": "FortiOS multiple vulnerabilities including remote code execution in SAML server.",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "cvss": 10,
+      "severity": "CRITICAL",
+      "vendor": "Palo Alto",
+      "product": "PAN-OS",
+      "desc": "Palo Alto Networks PAN-OS command injection vulnerability in GlobalProtect gateway.",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "CVE-2024-21762",
+      "cvss": 9.6,
+      "severity": "CRITICAL",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "desc": "FortiOS SSL-VPN heap overflow vulnerability allowed remote unauthenticated RCE.",
+      "published": "2026-04-20"
+    },
+    {
+      "id": "CVE-2024-27187",
+      "cvss": 8.1,
+      "severity": "HIGH",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "desc": "JetBrains TeamCity authentication bypass via broken access control.",
+      "published": "2026-04-10"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "cvss": 10,
+      "severity": "CRITICAL",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "desc": "ConnectWise ScreenConnect authentication bypass allowing complete server compromise.",
+      "published": "2026-03-05"
+    },
+    {
+      "id": "CVE-2024-20353",
+      "cvss": 8.6,
+      "severity": "HIGH",
+      "vendor": "Cisco",
+      "product": "ASA/FMC",
+      "desc": "Cisco ASA and Firepower Management Center denial of service and potential RCE.",
+      "published": "2026-03-01"
+    },
+    {
+      "id": "CVE-2024-20399",
+      "cvss": 8.1,
+      "severity": "HIGH",
+      "vendor": "Cisco",
+      "product": "Unified IP Phone",
+      "desc": "Cisco IP Phone remote code execution via crafted HTTP requests.",
+      "published": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-20698",
+      "cvss": 9,
+      "severity": "CRITICAL",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "desc": "Windows Kerberos elevation of privilege via spoofing vulnerability.",
+      "published": "2026-02-10"
+    },
+    {
+      "id": "CVE-2024-21351",
+      "cvss": 8.2,
+      "severity": "HIGH",
+      "vendor": "Microsoft",
+      "product": "Hyper-V",
+      "desc": "Hyper-V remote code execution via specially crafted application.",
+      "published": "2026-01-25"
+    },
+    {
+      "id": "CVE-2024-29973",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "Microsoft",
+      "product": "SQL Server",
+      "desc": "Microsoft SQL Server Native OLE DB Provider remote code execution.",
+      "published": "2026-01-20"
+    },
+    {
+      "id": "CVE-2024-29824",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager",
+      "desc": "Ivanti EPM core server remote code execution via SQL injection.",
+      "published": "2026-01-15"
+    },
+    {
+      "id": "CVE-2024-29889",
+      "cvss": 8.8,
+      "severity": "HIGH",
+      "vendor": "Progress",
+      "product": "WhatsUp Gold",
+      "desc": "Progress WhatsUp Gold script injection and RCE vulnerability.",
+      "published": "2026-01-10"
+    },
+    {
+      "id": "CVE-2024-32113",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "Apache",
+      "product": "OFBiz",
+      "desc": "Apache OFBiz authentication bypass leading to RCE via malformed URL.",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "CVE-2024-36477",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "vendor": "GeoVision",
+      "product": "Multiple Products",
+      "desc": "GeoVision products command injection via improper input validation.",
+      "published": "2026-07-01"
+    },
+    {
+      "id": "CVE-2024-38200",
+      "cvss": 8.8,
+      "severity": "HIGH",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "desc": "Windows Mark of the Web bypass vulnerability allowing malicious file execution.",
+      "published": "2026-08-01"
+    }
+  ],
+  "pulses": [
+    {
+      "name": "African Banking Malware Campaign 2026",
+      "id": "static-001",
+      "tags": [
+        "banking-trojan",
+        "africa",
+        "q8"
+      ],
+      "indicator_count": 45,
+      "created": "2026-07-20",
+      "description": "Active banking trojan campaign targeting African financial institutions, primarily Nigeria and South Africa."
+    },
+    {
+      "name": "Kenya Government APT Intrusion Set",
+      "id": "static-002",
+      "tags": [
+        "apt",
+        "kenya",
+        "espionage",
+        "government"
+      ],
+      "indicator_count": 78,
+      "created": "2026-07-15",
+      "description": "State-linked APT group targeting Kenyan government networks with custom malware."
+    },
+    {
+      "name": "Ransomware Affecting African ISPs",
+      "id": "static-003",
+      "tags": [
+        "ransomware",
+        "isp",
+        "africa",
+        "tanzania"
+      ],
+      "indicator_count": 32,
+      "created": "2026-08-01",
+      "description": "Ransomware campaign affecting multiple African ISP providers, potential customer data exposure."
+    },
+    {
+      "name": "South Africa Data Breach IOC Set",
+      "id": "static-004",
+      "tags": [
+        "data-breach",
+        "south-africa",
+        "leak",
+        "credentials"
+      ],
+      "indicator_count": 120,
+      "created": "2026-07-28",
+      "description": "Credential dump from South African corporate data breach circulating on dark web."
+    },
+    {
+      "name": "Egypt Critical Infrastructure Recon",
+      "id": "static-005",
+      "tags": [
+        "reconnaissance",
+        "egypt",
+        "ics",
+        "scada"
+      ],
+      "indicator_count": 56,
+      "created": "2026-07-10",
+      "description": "Reconnaissance activity targeting Egyptian critical infrastructure, suspected state actor."
+    },
+    {
+      "name": "Algeria Maghreb APT Campaign",
+      "id": "static-006",
+      "tags": [
+        "apt",
+        "algeria",
+        "maghreb",
+        "espionage"
+      ],
+      "indicator_count": 89,
+      "created": "2026-06-25",
+      "description": "Maghreb-region APT activity with surveillanceware targeting Algerian activists and officials."
+    },
+    {
+      "name": "Morocco Cyber Espionage Operations",
+      "id": "static-007",
+      "tags": [
+        "espionage",
+        "morocco",
+        "apt",
+        "surveillance"
+      ],
+      "indicator_count": 67,
+      "created": "2026-06-18",
+      "description": "Ongoing cyber espionage operations linked to Moroccan threat actors against regional targets."
+    },
+    {
+      "name": "Nigeria Business Email Compromise Surge",
+      "id": "static-008",
+      "tags": [
+        "bec",
+        "nigeria",
+        "fraud",
+        "financial"
+      ],
+      "indicator_count": 234,
+      "created": "2026-08-05",
+      "description": "Sharp increase in BEC campaigns targeting African companies with cross-border wire transfers."
+    },
+    {
+      "name": "Ethiopia Internet Shutdown Indicators",
+      "id": "static-009",
+      "tags": [
+        "censorship",
+        "ethiopia",
+        "shutdown",
+        "dpi"
+      ],
+      "indicator_count": 28,
+      "created": "2026-07-30",
+      "description": "Indicators related to targeted internet shutdown mechanisms in Ethiopia."
+    },
+    {
+      "name": "Ghana Cryptocurrency Exchange Targeting",
+      "id": "static-010",
+      "tags": [
+        "crypto",
+        "ghana",
+        "exchange",
+        "theft"
+      ],
+      "indicator_count": 41,
+      "created": "2026-08-03",
+      "description": "Threat actors targeting Ghanaian cryptocurrency exchanges with phishing and malware."
+    }
+  ],
+  "emergingThreats": {
+    "source": "Emerging Threats",
+    "blocked": 549,
+    "items": [
+      "100.23.213.128",
+      "101.100.216.61",
+      "101.50.83.146",
+      "101.96.192.45",
+      "101.96.192.88",
+      "102.220.160.41",
+      "102.220.160.67",
+      "103.160.5.123",
+      "103.167.88.166",
+      "103.19.196.230",
+      "103.194.106.230",
+      "103.252.127.146",
+      "103.85.85.175",
+      "103.90.155.32",
+      "104.155.101.5",
+      "104.155.107.253",
+      "104.155.30.31",
+      "104.155.99.63",
+      "104.199.101.188",
+      "104.199.12.168",
+      "104.199.1.77",
+      "104.199.24.235",
+      "104.199.54.179",
+      "104.199.87.236",
+      "104.252.127.62",
+      "106.75.63.139",
+      "107.189.10.124",
+      "108.165.164.23",
+      "109.172.55.136",
+      "112.167.99.220"
+    ]
+  },
+  "threatFox": {
+    "source": "Abuse.ch ThreatFox",
+    "total": 0,
+    "items": [],
+    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+  },
+  "generated": "2026-08-11T00:07:01.519Z"
+}
