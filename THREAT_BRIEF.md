@@ -1,5 +1,5 @@
 # 🛡️ Africa OSINT Threat Intel Briefing
-**Generated:** Saturday, August 15, 2026 (2026-08-15T00:02:40.853Z)
+**Generated:** Sunday, August 16, 2026 (2026-08-16T00:03:33.211Z)
 **Classification:** UNCLASSIFIED // FOR OFFICIAL USE ONLY
 
 ---
