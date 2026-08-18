@@ -1,5 +1,5 @@
 # 🛡️ Africa OSINT Threat Intel Briefing
-**Generated:** Monday, August 17, 2026 (2026-08-17T00:03:03.208Z)
+**Generated:** Tuesday, August 18, 2026 (2026-08-18T00:03:28.826Z)
 **Classification:** UNCLASSIFIED // FOR OFFICIAL USE ONLY
 
 ---
@@ -10,7 +10,7 @@
 |--------|-------|
 | Critical/High CVEs Tracked | 20 |
 | Active Threat Pulses | 10 |
-| Emerging Threats Blocked IPs | 551 |
+| Emerging Threats Blocked IPs | 564 |
 | Abuse.ch ThreatFox IOCs | 0 |
 
 ---
@@ -256,7 +256,7 @@
 2. **Audit Fortinet FortiOS** - CVE-2024-23113, CVE-2023-48795, CVE-2024-21762 - Patch immediately
 3. **Verify Backups** - Ensure offline/air-gapped backups for ransomware response
 4. **Enable MFA** - Prioritize finance, admin, and remote access accounts
-5. **Block Emerging Threats IPs** - 551 malicious IPs available for blocking
+5. **Block Emerging Threats IPs** - 564 malicious IPs available for blocking
 
 ### Short-term (24-72 hours)
 1. Deploy YARA rules for detected threat indicators
@@ -279,7 +279,7 @@
 |--------|--------|-------|
 | **Curated CVEs** | ✅ Available | 20 critical/high CVEs |
 | **Static Threat Pulses** | ✅ Available | 10 Africa-relevant pulses |
-| **Emerging Threats** | ✅ Available | 551 blocked IPs |
+| **Emerging Threats** | ✅ Available | 564 blocked IPs |
 | **Abuse.ch ThreatFox** | ⚠️ Unavailable | 0 IOCs |
 | **NVD/NIST API** | ⚠️ Requires Key | API key required for full access |
 
@@ -299,28 +299,28 @@
 
 ## 📋 Emerging Threats Blocked IPs (Sample)
 
-- 100.23.213.128
 - 101.100.216.61
 - 101.50.83.146
 - 101.96.192.88
-- 102.220.160.26
+- 102.220.160.172
 - 102.220.160.38
-- 102.220.160.41
 - 103.160.5.123
 - 103.167.88.166
 - 103.19.196.230
 - 103.194.106.230
 - 103.241.168.70
+- 103.40.11.179
 - 103.63.101.24
 - 103.85.85.175
 - 103.90.155.32
-- 104.155.101.5
-- 104.155.30.31
 - 104.155.99.63
+- 104.168.100.167
 - 104.199.101.188
 - 104.199.12.168
+- 104.199.1.77
+- 104.199.24.235
 
-...and 531 more at https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+...and 544 more at https://rules.emergingthreats.net/blockrules/compromised-ips.txt
 
 ---
 
