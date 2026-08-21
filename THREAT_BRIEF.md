@@ -1,5 +1,5 @@
 # 🛡️ Africa OSINT Threat Intel Briefing
-**Generated:** Thursday, August 20, 2026 (2026-08-20T00:04:07.859Z)
+**Generated:** Friday, August 21, 2026 (2026-08-21T00:07:35.169Z)
 **Classification:** UNCLASSIFIED // FOR OFFICIAL USE ONLY
 
 ---
@@ -10,7 +10,7 @@
 |--------|-------|
 | Critical/High CVEs Tracked | 20 |
 | Active Threat Pulses | 10 |
-| Emerging Threats Blocked IPs | 533 |
+| Emerging Threats Blocked IPs | 521 |
 | Abuse.ch ThreatFox IOCs | 0 |
 
 ---
@@ -256,7 +256,7 @@
 2. **Audit Fortinet FortiOS** - CVE-2024-23113, CVE-2023-48795, CVE-2024-21762 - Patch immediately
 3. **Verify Backups** - Ensure offline/air-gapped backups for ransomware response
 4. **Enable MFA** - Prioritize finance, admin, and remote access accounts
-5. **Block Emerging Threats IPs** - 533 malicious IPs available for blocking
+5. **Block Emerging Threats IPs** - 521 malicious IPs available for blocking
 
 ### Short-term (24-72 hours)
 1. Deploy YARA rules for detected threat indicators
@@ -279,7 +279,7 @@
 |--------|--------|-------|
 | **Curated CVEs** | ✅ Available | 20 critical/high CVEs |
 | **Static Threat Pulses** | ✅ Available | 10 Africa-relevant pulses |
-| **Emerging Threats** | ✅ Available | 533 blocked IPs |
+| **Emerging Threats** | ✅ Available | 521 blocked IPs |
 | **Abuse.ch ThreatFox** | ⚠️ Unavailable | 0 IOCs |
 | **NVD/NIST API** | ⚠️ Requires Key | API key required for full access |
 
@@ -320,7 +320,7 @@
 - 104.199.24.235
 - 104.199.54.179
 
-...and 513 more at https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+...and 501 more at https://rules.emergingthreats.net/blockrules/compromised-ips.txt
 
 ---
 
