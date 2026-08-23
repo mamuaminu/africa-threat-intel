@@ -1,0 +1,23 @@
+{
+  "timestamp": 1787443422249,
+  "feeds": [
+    {
+      "source": "AlienVault OTX",
+      "matched": 0,
+      "total": 0,
+      "error": null
+    }
+  ],
+  "countries": [
+    "Nigeria",
+    "Kenya",
+    "South Africa",
+    "Ghana",
+    "Egypt",
+    "Morocco",
+    "Tanzania",
+    "Uganda",
+    "Algeria",
+    "Ethiopia"
+  ]
+}

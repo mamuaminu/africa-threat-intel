@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-08-23T00:05:10.770Z",
+  "feeds": [
+    {
+      "source": "CISA KEV",
+      "matched": 0,
+      "total": 0,
+      "error": "All sources failed"
+    },
+    {
+      "source": "AlienVault OTX",
+      "matched": 0,
+      "total": 0,
+      "error": null
+    },
+    {
+      "source": "NVD/NIST",
+      "matched": 0,
+      "total": 0,
+      "error": "Unexpected end of JSON input"
+    }
+  ],
+  "countries": [
+    "Nigeria",
+    "Kenya",
+    "South Africa",
+    "Ghana",
+    "Egypt",
+    "Morocco",
+    "Tanzania",
+    "Uganda",
+    "Algeria",
+    "Ethiopia"
+  ],
+  "briefingFile": "threat-briefing-2026-08-23.md"
+}
