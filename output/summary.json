@@ -1,36 +1,38 @@
 {
-  "timestamp": "2026-08-23T00:05:10.770Z",
-  "feeds": [
-    {
-      "source": "CISA KEV",
-      "matched": 0,
-      "total": 0,
-      "error": "All sources failed"
+  "generated": "2026-08-24T00:05:00Z",
+  "countries": ["Nigeria","Kenya","South Africa","Ghana","Egypt","Morocco","Tanzania","Uganda","Algeria","Ethiopia"],
+  "status": "CRITICAL",
+  "feeds": {
+    "cisa_kev": { "status": "indirect", "reason": "feed_urls_restricted" },
+    "nvd_nist": { "status": "indirect", "reason": "api_rate_limited" },
+    "otx": { "status": "indirect", "reason": "timeout" },
+    "interpol_2026": { "status": "active", "source": "Interpol African Cyberthreat Assessment Report 2026" },
+    "ey_threat_2026": { "status": "active", "source": "EY Africa Cybersecurity Threat Outlook 2026" },
+    "checkpoint_jul2026": { "status": "active", "source": "Check Point Research July 2026" }
+  },
+  "key_findings": {
+    "ransomware_doubling": "Ransomware attacks doubled YoY as of July 2026",
+    "south_africa_ransomware_pct": "92% of all Africa ransomware detections",
+    "attack_rates": {
+      "angola": 5714,
+      "nigeria": 4975,
+      "kenya": 2915,
+      "south_africa": 2195
     },
-    {
-      "source": "AlienVault OTX",
-      "matched": 0,
-      "total": 0,
-      "error": null
-    },
-    {
-      "source": "NVD/NIST",
-      "matched": 0,
-      "total": 0,
-      "error": "Unexpected end of JSON input"
-    }
+    "critical_infra_hits": [
+      "South African Weather Service (ransomware)",
+      "South African Airways (ransomware)",
+      "Namibia Paratus Telecom (ransomware)",
+      "Nigeria Customs Service (ransomware)",
+      "Uganda Electricity Transmission Company (ransomware)"
+    ]
+  },
+  "top_cves": [
+    {"cveId":"CVE-2024-1709","title":"ScreenConnect Auth Bypass","cvss":10.0},
+    {"cveId":"CVE-2024-3400","title":"PAN-OS Command Injection","cvss":10.0},
+    {"cveId":"CVE-2023-22515","title":"Confluence Data Center RCE","cvss":10.0},
+    {"cveId":"CVE-2024-27198","title":"TeamCity Auth Bypass","cvss":9.8},
+    {"cveId":"CVE-2024-21762","title":"FortiOS SSL VPN RCE","cvss":9.8}
   ],
-  "countries": [
-    "Nigeria",
-    "Kenya",
-    "South Africa",
-    "Ghana",
-    "Egypt",
-    "Morocco",
-    "Tanzania",
-    "Uganda",
-    "Algeria",
-    "Ethiopia"
-  ],
-  "briefingFile": "threat-briefing-2026-08-23.md"
+  "briefingFile": "threat-briefing-2026-08-24.md"
 }
