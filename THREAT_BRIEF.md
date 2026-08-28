@@ -1,177 +1,74 @@
-# 🛡️ Africa Threat Intelligence Briefing
-**Generated:** Mon, 24 Aug 2026 00:05 UTC  
-**Countries Monitored:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia  
-**Status:** 🚨 CRITICAL - Elevated Threat Activity
+# 🌐 Africa OSINT Threat Intel Briefing
+**Generated:** Fri, 28 Aug 2026 00:04:09 GMT  
+**Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia  
+**Priority Targets:** CISA KEV, AlienVault OTX, NVD, Abuse.ch, ThreatFox
 
 ---
 
-## Executive Summary
+## 🚨 CRITICAL CVEs (KEV + NVD)
 
-> **10 African nations** under active threat monitoring.
-> **Live feeds restricted** — briefing compiled from CISA KEV, NVD, Interpol, EY Africa Threat Outlook 2026, Check Point Research.
-> **Ransomware attacks doubled YoY** as of July 2026.
-> **Angola hardest hit** with 5,714 attacks/org/week. Nigeria: 4,975. Kenya: 2,915. South Africa: 2,195.
+### Latest Critical CVEs (NVD)
 
-**Recommended Response:** Patch critical CVEs within 24-48h. VPN gateways, identity infrastructure, and unpatched Confluence/TeamCity instances are primary targets across all monitored countries.
+| CVE ID | Severity | Score | Description |
+|--------|----------|-------|-------------|
+| [CVE-1999-0236](https://nvd.nist.gov/vuln/detail/CVE-1999-0236) | HIGH | 7.5/10 | ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI pro |
+| [CVE-1999-0239](https://nvd.nist.gov/vuln/detail/CVE-1999-0239) | HIGH | 7.5/10 | Netscape FastTrack Web server lists files when a lowercase "get" command is used |
+| [CVE-1999-1152](https://nvd.nist.gov/vuln/detail/CVE-1999-1152) | HIGH | 7.5/10 | Compaq/Microcom 6000 Access Integrator does not disconnect a client after a cert |
+| [CVE-1999-1568](https://nvd.nist.gov/vuln/detail/CVE-1999-1568) | HIGH | 7.5/10 | Off-by-one error in NcFTPd FTP server before 2.4.1 allows a remote attacker to c |
+| [CVE-1999-1549](https://nvd.nist.gov/vuln/detail/CVE-1999-1549) | HIGH | 7.8/10 | Lynx 2.x does not properly distinguish between internal and external HTML, which |
+| [CVE-1999-1127](https://nvd.nist.gov/vuln/detail/CVE-1999-1127) | HIGH | 7.5/10 | Windows NT 4.0 does not properly shut down invalid named pipe RPC connections, w |
+| [CVE-2000-0342](https://nvd.nist.gov/vuln/detail/CVE-2000-0342) | HIGH | 7.5/10 | Eudora 4.x allows remote attackers to bypass the user warning for executable att |
+| [CVE-2000-0497](https://nvd.nist.gov/vuln/detail/CVE-2000-0497) | HIGH | 7.5/10 | IBM WebSphere server 3.0.2 allows a remote attacker to view source code of a JSP |
+| [CVE-2000-0498](https://nvd.nist.gov/vuln/detail/CVE-2000-0498) | HIGH | 7.5/10 | Unify eWave ServletExec allows a remote attacker to view source code of a JSP pr |
+| [CVE-2000-0499](https://nvd.nist.gov/vuln/detail/CVE-2000-0499) | HIGH | 7.5/10 | The default configuration of BEA WebLogic 3.1.8 through 4.5.1 allows a remote at |
+| [CVE-2001-0006](https://nvd.nist.gov/vuln/detail/CVE-2001-0006) | HIGH | 7.1/10 | The Winsock2ProtocolCatalogMutex mutex in Windows NT 4.0 has inappropriate Every |
+| [CVE-2001-0195](https://nvd.nist.gov/vuln/detail/CVE-2001-0195) | HIGH | 7.8/10 | sash before 3.4-4 in Debian GNU/Linux does not properly clone /etc/shadow, which |
+| [CVE-2001-0334](https://nvd.nist.gov/vuln/detail/CVE-2001-0334) | HIGH | 7.5/10 | FTP service in IIS 5.0 and earlier allows remote attackers to cause a denial of  |
+| [CVE-2001-1043](https://nvd.nist.gov/vuln/detail/CVE-2001-1043) | HIGH | 7.5/10 | ArGoSoft FTP Server 1.2.2.2 allows remote attackers to read arbitrary files and  |
+| [CVE-2001-1386](https://nvd.nist.gov/vuln/detail/CVE-2001-1386) | HIGH | 7.5/10 | WFTPD 3.00 allows remote attackers to read arbitrary files by uploading a (link) |
 
----
+## 🔥 Active Threat Pulses (AlienVault OTX)
 
-## 🚨 Critical CVEs - Africa Infrastructure
+*No Africa-specific pulses found. Check general threat feeds below.*
 
-*Sources: CISA KEV Catalog, NVD/NIST, confirmed active exploitation (August 2026)*
+## 🎯 Threat Intelligence Feeds
 
-### Known Exploited Vulnerabilities (CISA KEV)
+| Source | Type | Status |
+|--------|------|--------|
 
-| CVE ID | Title | Vendor | CVSS | Due Date | Target Region |
-|--------|-------|--------|------|----------|---------------|
-| CVE-2024-1709 | ConnectWise ScreenConnect Auth Bypass | ConnectWise | 10.0 | 2024-02-19 | Multi-Africa |
-| CVE-2024-3400 | Palo Alto PAN-OS Command Injection | Palo Alto | 10.0 | 2024-06-15 | Multi-Africa VPN |
-| CVE-2023-22515 | Atlassian Confluence Data Center RCE | Atlassian | 10.0 | 2024-01-15 | Nigeria, Kenya |
-| CVE-2024-27198 | TeamCity Authentication Bypass RCE | JetBrains | 9.8 | 2024-08-19 | Multi-Africa |
-| CVE-2024-21762 | FortiOS SSL VPN Remote Code Execution | Fortinet | 9.8 | 2024-08-09 | Kenya, Tanzania |
-| CVE-2024-0012 | PAN-OS Management Interface Auth Bypass | Palo Alto | 9.8 | 2025-06-18 | South Africa |
-| CVE-2024-23897 | Jenkins CLI Arbitrary File Read | Jenkins | 9.1 | 2024-03-25 | Egypt, Morocco |
-| CVE-2024-22252 | VMware ESXi Use-After-Free RCE | VMware | 9.8 | 2024-08-17 | Morocco, Egypt |
-| CVE-2024-37080 | Fortinet FortiClient EMS SQL Injection | Fortinet | 9.8 | 2024-06-12 | Tanzania, Uganda |
-| CVE-2024-20353 | Cisco ASA & FTD Denial of Service | Cisco | 8.6 | 2024-05-15 | Multi-Africa |
-
-### Fresh 2026 Africa-Relevant CVEs
-
-| CVE ID | Title | CVSS | Published | Relevance |
-|--------|-------|------|-----------|-----------|
-| CVE-2026-1812 | Zoho ManageEngine ServiceDesk Plus Auth Bypass | 9.8 | 2026-06 | African govt NGOs |
-| CVE-2026-1987 | FortiOS Heap Overflow RCE | 9.1 | 2026-05 | East Africa telcos |
-| CVE-2026-2241 | Citrix NetScaler ADC/Gateway RCE | 9.8 | 2026-07 | African banks |
-| CVE-2026-3314 | Microsoft SharePoint Server RCE | 8.2 | 2026-06 | African enterprises |
-
----
-
-## 🔥 Active Threat Landscape
-
-### Interpol African Cyberthreat Assessment Report 2026 — Key Findings
-
-- **Ransomware + BEC (Business Email Compromise)** are the two dominant threats across all 10 monitored nations
-- **South Africa** accounted for **92% of all ransomware detections** in Africa (TrendAI data)
-- Critical infrastructure attacks confirmed in 2026:
-  - 🇿🇦 South African Weather Service (ransomware)
-  - 🇿🇦 South African Airways (ransomware)
-  - 🇳🇦 Namibia's Paratus Telecom (ransomware)
-  - 🇳🇬 Nigeria Customs Service (ransomware)
-  - 🇺🇬 Uganda Electricity Transmission Company (ransomware)
-- **AI-powered scams** emerging as dominant threat in West Africa
-- Angola: 5,714 attacks/org/week | Nigeria: 4,975 | Kenya: 2,915 | SA: 2,195
-
-### EY Africa Cybersecurity Threat Outlook 2026
-
-- Cyber threats have shifted from **episodic IT incidents** to **systemic business risks**
-- **12 key cyber risk trends** reshaping board accountability
-- Ransomware operators increasingly targeting **critical public services**
-- **Supply chain attacks** growing — African MSPs and telcos in crosshairs
-
-### Check Point Research — July 2026 Global Threat Intelligence
-
-- Africa average: **2,336 attacks/week/organization** (+16% YoY)
-- Top threat actors targeting Africa: LockBit3.0, BlackCat/ALPHV, Wizard Spider, Lazarus Group
-- Financial sector and government most targeted across Nigeria, Kenya, South Africa
-
----
-
-## 🌐 Country-Specific Threat Overviews
-
-| Country | Primary Threats | Key Sectors | Attack Rate (weekly/org) |
-|---------|----------------|-------------|--------------------------|
-| 🇳🇬 Nigeria | BEC, ransomware, financial fraud, AI scams | Banking, Telecom, Government, Customs | 4,975 |
-| 🇰🇪 Kenya | Banking trojans, espionage, mobile money targeting, M-Pesa fraud | Finance, Telecom, Health, Energy | 2,915 |
-| 🇿🇦 South Africa | Ransomware, data breaches, ATM fraud, critical infra | Finance, Mining, Retail, Weather, Aviation | 2,195 |
-| 🇬🇭 Ghana | BEC, romance scams, banking malware | Finance, Government | — |
-| 🇪🇬 Egypt | State-sponsored espionage, hacktivism, surveillance | Government, Media, Energy, State entities | — |
-| 🇲🇦 Morocco | Espionage, surveillance, phishing campaigns | Government, Dissidents, Media | — |
-| 🇹🇿 Tanzania | Cybercrime, SIM swap fraud, telco targeting | Telecom, Finance, Energy | — |
-| 🇺🇬 Uganda | Hacktivism, financial fraud, power grid targeting | Government, NGO, Energy/Grid | — |
-| 🇩🇿 Algeria | State surveillance, journalist targeting, diaspora espionage | Media, Activists, Government | — |
-| 🇪🇹 Ethiopia | State espionage, diaspora targeting, internet shutdowns | Government, Media, Diaspora orgs | — |
-
----
-
-## 🛠️ Recommended Actions
+## 🛡️ Recommended Actions for African Infrastructure
 
 ### Immediate (0-24h)
-1. **Patch VPN Gateways** — FortiOS, PAN-OS, Pulse Secure (CVE-2024-21762, CVE-2024-3400, CVE-2024-0012)
-2. **Audit ScreenConnect/TeamCity** — Check for unauthorized access (CVE-2024-1709, CVE-2024-27198)
-3. **Audit Confluence instances** — Morocco, Kenya, Nigeria (CVE-2023-22515)
-4. **Block IOCs** — LockBit3.0, BlackCat associated IPs and domains
-5. **Verify backups** — offline/air-gapped backups for ransomware response
+- **Patch CISA KEV CVEs** - Priority: Critical/High, especially if Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia infra is exposed
+- **Check firewall rules** - Block known malicious IPs from ThreatFox/Abuse.ch feeds
+- **Audit VPN and RDP** - These are primary initial access vectors in Africa-targeted attacks
 
-### Short-term (24-72h)
-1. **Engage National CERTs:**
-   - 🇳🇬 Nigeria: ng-cert.gov.ng | CERT.NG
-   - 🇰🇪 Kenya: ke-cert.or.ke | Kenya ICT Authority
-   - 🇿🇦 South Africa: saia.co.za/cert | FIC
-   - 🇬🇭 Ghana: ghana-cert.gov.gh
-   - 🇪🇬 Egypt: eg-cert.eg | National Telecom Regulatory Authority
-   - 🇲🇦 Morocco: ma-cert.gov.ma | DGSSI
-2. **Update firewall rules** — restrict inbound from: Nigeria, Kenya, Angola (high attack volume source countries)
-3. **Run YARA rules** — AsyncRAT, njRAT, Haw mata, LockBit3.0, BlackCat signatures
-4. **Audit MFA** — enforce phishing-resistant MFA for all privileged accounts
+### Short-term (1-7 days)
+- **Deploy YARA rules** from AlienVault OTX pulses targeting your region
+- **Update DNS sinkholes** with malicious domains from FeodoTracker
+- **Verify backup integrity** - Ransomware groups active across African telcos/finance
 
-### Ongoing (Weekly)
-1. **Subscribe to regional CERTs:** AU-CERT, East Africa CERT, ECOWAS-CICTE
-2. **Darknet monitoring** — watch Africa-targeted ransomware leak sites (LockBit3.0, BlackCat)
-3. **Threat intel sharing** — ISAO/ISAO participation for your sector
-4. **Tabletop exercises** — simulate ransomware scenarios with critical infra teams
+### Long-term (1-4 weeks)
+- **Implement CISA KEV alerting** in your vulnerability management pipeline
+- **Subscribe to national CERT feeds** (KE-CIRT Kenya, NG-CERT Nigeria, ZA-CERT South Africa)
+- **Conduct threat hunting** based on Africa-specific TTPs from MITRE ATT&CK
 
----
+## 📡 Coverage Countries
 
-## 🎯 Threat Actor Activity
-
-| Threat Actor | Primary Target | TTPs | Active Regions |
-|-------------|---------------|------|----------------|
-| LockBit 3.0 | SA, Nigeria, Kenya critical infra | Ransomware, double extortion | Multi |
-| BlackCat/ALPHV | Banks, telcos, govt | Ransomware, RaaS | Multi |
-| Wizard Spider | Financial, healthcare | Conti-style ransomware | West Africa |
-| Lazarus Group | Government, crypto | Espionage, financial | North Africa |
-| Gaza Cybergang | Egypt, Morocco | Espionage, destructive | North Africa |
-| Desert Dexterity | UAE, Egypt | DNS hijacking, espionage | North Africa |
-| Silverfish | Kenya, Tanzania | Cyber espionage | East Africa |
+| Country | Key Sectors | Primary Threats |
+|---------|-------------|----------------|
+| 🇳🇬 Nigeria | Finance, Telecom, Oil & Gas | Banking trojans, Ransomware, BEC |
+| 🇰🇪 Kenya | Fintech, Telecom, Gov | Mobile money fraud, State APTs |
+| 🇿🇦 South Africa | Finance, Mining, Retail | Ransomware, Data breaches |
+| 🇬🇭 Ghana | Fintech, Telecom | Mobile fraud, Insider threats |
+| 🇪🇬 Egypt | Government, Telecom, Energy | State-sponsored, Hacktivism |
+| 🇲🇦 Morocco | Government, Finance, Tourism | Espionage, Web defacements |
+| 🇹🇿 Tanzania | Telecom, Mining | Financial fraud, Network intrusion |
+| 🇺🇬 Uganda | Telecom, NGO, Gov | Hacktivism, Cyber espionage |
+| 🇩🇿 Algeria | Government, Energy | State APTs, Surveillance malware |
+| 🇪🇹 Ethiopia | Government, Telecom | State surveillance, DDoS |
 
 ---
 
-## 📊 Feed Status
-
-| Source | Status | Notes |
-|--------|--------|-------|
-| CISA KEV | ⚠️ Indirect | Feed URLs restricted; data sourced via CISA catalog pages + web search |
-| NVD/NIST | ⚠️ Indirect | API rate-limited from this infrastructure; data sourced via web search |
-| AlienVault OTX | ⚠️ Indirect | API timeout; recommended to subscribe manually at otx.alienvault.com |
-| Interpol Africa Report 2026 | ✅ Active | Primary strategic intel source |
-| EY Africa Threat Outlook 2026 | ✅ Active | Business risk perspective |
-| Check Point Research July 2026 | ✅ Active | Global threat statistics with Africa breakdown |
-
----
-
-## 🔗 Resources
-
-- [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [NVD/NIST](https://nvd.nist.gov/)
-- [Interpol African Cyberthreat Assessment 2026](https://www.interpol.int/Media/Documents/Publications/Cybercrime/African-Cyberthreat-Assessment-Report-2026)
-- [EY Africa Cybersecurity Threat Outlook 2026](https://www.ey.com/en_za/newsroom/2026/05/africas-cyber-risk-intensifies-as-boards-confront-systemic-threats-in-2026)
-- [Check Point Research July 2026](https://techreview.africa/news/ransomware-attacks-double-year-over-year-as-july-2026-cyber-threat-volumes)
-- [AU-CERT](https://www.aucert.org)
-- [Interpol Cybercrime](https://www.interpol.int/Cybercrime)
-
----
-
-## 📁 Files in This Repo
-
-| File | Description |
-|------|-------------|
-| `THREAT_BRIEF.md` | Latest full threat briefing |
-| `briefings/` | Historical briefings by date |
-| `output/threat-briefing-YYYY-MM-DD.md` | Dated briefing archives |
-| `threat-data.json` | Structured JSON threat intel data |
-
----
-
-*🤖 Generated by Sakamoto Africa Threat Intel Aggregator v2 | 2026-08-24 UTC*  
-*Repo: github.com/mamuaminu/africa-threat-intel | Automated nightly cron*  
-*PAT: Sakamoto | Built FAST. Ships same night.*
+*🤖 Generated by Sakamoto OSINT Aggregator | 2026-08-28*
+*Sources: CISA KEV, NVD, AlienVault OTX, Abuse.ch, ThreatFox*
