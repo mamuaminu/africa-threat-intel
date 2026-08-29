@@ -1,0 +1,15 @@
+{
+  "generated": "2026-08-29T00:04:17.492Z",
+  "feeds": [
+    {
+      "source": "DShield Blocklist",
+      "count": 1,
+      "description": "Top attacking IPs"
+    },
+    {
+      "source": "Emerging Threats Compromised",
+      "count": 536,
+      "description": "Known compromised/malicious IPs"
+    }
+  ]
+}
