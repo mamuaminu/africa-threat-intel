@@ -1,4 +1,178 @@
 {
-  "generated": "2026-08-29T00:06:27.005Z",
-  "cves": []
+  "generated": "2026-08-29T00:07:34.918Z",
+  "cves": [
+    {
+      "cveId": "CVE-2026-18545",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 is vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthoriz",
+      "cvssScore": 4.3,
+      "severity": "MEDIUM",
+      "published": "2026-08-28T22:16:46.743",
+      "modified": "2026-08-28T22:16:46.743",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284579"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-18729",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of c",
+      "cvssScore": 8.8,
+      "severity": "HIGH",
+      "published": "2026-08-28T22:16:46.867",
+      "modified": "2026-08-28T22:16:46.867",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284733"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-18891",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary flows and access sensitive information due to improper authen",
+      "cvssScore": 8.2,
+      "severity": "HIGH",
+      "published": "2026-08-28T22:16:46.990",
+      "modified": "2026-08-28T22:16:46.990",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284579"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-18899",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to read arbitrary files due to path traversal.",
+      "cvssScore": 7.5,
+      "severity": "HIGH",
+      "published": "2026-08-28T22:16:47.107",
+      "modified": "2026-08-28T22:16:47.107",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284579"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-18904",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to obtain sensitive information and inject unauthorized messages due to a namespac",
+      "cvssScore": 8.2,
+      "severity": "HIGH",
+      "published": "2026-08-28T22:16:47.227",
+      "modified": "2026-08-28T22:16:47.227",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284579"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-19286",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary code due to improper enforcement of security restrictions on ",
+      "cvssScore": 9.8,
+      "severity": "CRITICAL",
+      "published": "2026-08-28T22:16:47.357",
+      "modified": "2026-08-28T22:16:47.357",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284733"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-19294",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacker to execute and read any user's private flow due to improper authoriz",
+      "cvssScore": 6.4,
+      "severity": "MEDIUM",
+      "published": "2026-08-28T22:16:47.470",
+      "modified": "2026-08-28T22:16:47.470",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284579"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-19295",
+      "description": "IBM Langflow OSS 1.0.0 through 1.11.1 allows an authenticated attacker to execute arbitrary operating system commands in the server process by saving ",
+      "cvssScore": 9.9,
+      "severity": "CRITICAL",
+      "published": "2026-08-28T22:16:47.613",
+      "modified": "2026-08-28T22:16:47.613",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7284733"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-22056",
+      "description": "StorageGRID (formerly StorageGRID Webscale) versions 11.5 and higher in a non-standard configuration and scenario are susceptible to a Denial of Servi",
+      "cvssScore": "N/A",
+      "severity": "UNKNOWN",
+      "published": "2026-08-28T22:16:47.883",
+      "modified": "2026-08-28T22:16:47.883",
+      "references": [
+        "https://security.netapp.com/advisory/NTAP-20260828-0021/"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-3627",
+      "description": "IBM Concert 1.0.0 through 2.3.1 is vulnerable to SQL injection. A remote attacker could send specially crafted SQL statements, which could allow the a",
+      "cvssScore": 9.1,
+      "severity": "CRITICAL",
+      "published": "2026-08-28T22:16:49.063",
+      "modified": "2026-08-28T22:16:49.063",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7285337"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-3686",
+      "description": "IBM Cloud Pak for Data System 11.3.0.2 through Interim Fix 001 is vulnerable to a denial of service due to improper limitation of resources.",
+      "cvssScore": 6.2,
+      "severity": "MEDIUM",
+      "published": "2026-08-28T22:16:49.180",
+      "modified": "2026-08-28T22:16:49.180",
+      "references": [
+        "https://www.ibm.com/support/pages/node/7285507"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-51661",
+      "description": "Incorrect access control in the getPortForwardRules function of TOTOLINK T6 4.1.5cu.748_B20211015 allows unauthenticated attackers to obtain port-forw",
+      "cvssScore": "N/A",
+      "severity": "UNKNOWN",
+      "published": "2026-08-28T22:16:49.303",
+      "modified": "2026-08-28T22:16:49.303",
+      "references": [
+        "https://github.com/DarkBoulder/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://github.com/ShengWu00/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://www.totolink.net/"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-51662",
+      "description": "Incorrect access control in the getCloudSrvCheckStatus function of TOTOLINK T6 4.1.5cu.748_B20211015 allows unauthenticated attackers to obtain cloud ",
+      "cvssScore": "N/A",
+      "severity": "UNKNOWN",
+      "published": "2026-08-28T22:16:49.413",
+      "modified": "2026-08-28T22:16:49.413",
+      "references": [
+        "https://github.com/DarkBoulder/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://github.com/ShengWu00/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://www.totolink.net/"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-51663",
+      "description": "Incorrect access control in the getWiFiApcliScan function of TOTOLINK T6 4.1.5cu.748_B20211015 allows unauthenticated attackers to trigger wireless sc",
+      "cvssScore": "N/A",
+      "severity": "UNKNOWN",
+      "published": "2026-08-28T22:16:49.520",
+      "modified": "2026-08-28T22:16:49.520",
+      "references": [
+        "https://github.com/DarkBoulder/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://github.com/ShengWu00/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://www.totolink.net/"
+      ]
+    },
+    {
+      "cveId": "CVE-2026-51664",
+      "description": "Incorrect access control in the getTelnetCfg function of TOTOLINK T6 4.1.5cu.748_B20211015 allows unauthenticated attackers to obtain Telnet service e",
+      "cvssScore": "N/A",
+      "severity": "UNKNOWN",
+      "published": "2026-08-28T22:16:49.637",
+      "modified": "2026-08-28T22:16:49.637",
+      "references": [
+        "https://github.com/DarkBoulder/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://github.com/ShengWu00/CVE-Vendor-Coordination/blob/main/TOTOLINK/README.md",
+        "https://www.totolink.net/"
+      ]
+    }
+  ]
 }

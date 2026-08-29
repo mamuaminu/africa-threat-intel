@@ -1,5 +1,5 @@
 # 🚨 Africa OSINT Threat Intel Briefing
-**Generated:** Saturday, August 29, 2026 12:06 AM UTC  
+**Generated:** Saturday, August 29, 2026 12:07 AM UTC  
 **Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
 ---
@@ -7,7 +7,7 @@
 ## EXECUTIVE SUMMARY
 
 ### Threat Landscape
-- **Critical CVEs (NVD):** 0 recent critical vulnerabilities
+- **Critical CVEs (NVD):** 15 recent critical vulnerabilities
 - **News (PacketStorm):** 4 recent advisories  
 - **Blocklists Monitored:** 2 threat feeds
 
@@ -32,10 +32,30 @@
 
 | CVE ID | CVSS | Severity | Published | Description |
 |--------|------|----------|-----------|-------------|
+| CVE-2026-18545 | **4.3** | MEDIUM | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 is vulnerable to server-side request forge... |
+| CVE-2026-18729 | **8.8** | HIGH | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacke... |
+| CVE-2026-18891 | **8.2** | HIGH | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute a... |
+| CVE-2026-18899 | **7.5** | HIGH | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to read arbi... |
+| CVE-2026-18904 | **8.2** | HIGH | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to obtain se... |
+| CVE-2026-19286 | **9.8** | CRITICAL | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute a... |
+| CVE-2026-19294 | **6.4** | MEDIUM | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacke... |
+| CVE-2026-19295 | **9.9** | CRITICAL | 8/28/2026 | IBM Langflow OSS 1.0.0 through 1.11.1 allows an authenticated attacker to execut... |
+| CVE-2026-22056 | **N/A** | UNKNOWN | 8/28/2026 | StorageGRID (formerly StorageGRID Webscale) versions 11.5 and higher in a non-st... |
+| CVE-2026-3627 | **9.1** | CRITICAL | 8/28/2026 | IBM Concert 1.0.0 through 2.3.1 is vulnerable to SQL injection. A remote attacke... |
+| CVE-2026-3686 | **6.2** | MEDIUM | 8/28/2026 | IBM Cloud Pak for Data System 11.3.0.2 through Interim Fix 001 is vulnerable to ... |
+| CVE-2026-51661 | **N/A** | UNKNOWN | 8/28/2026 | Incorrect access control in the getPortForwardRules function of TOTOLINK T6 4.1.... |
+| CVE-2026-51662 | **N/A** | UNKNOWN | 8/28/2026 | Incorrect access control in the getCloudSrvCheckStatus function of TOTOLINK T6 4... |
+| CVE-2026-51663 | **N/A** | UNKNOWN | 8/28/2026 | Incorrect access control in the getWiFiApcliScan function of TOTOLINK T6 4.1.5cu... |
+| CVE-2026-51664 | **N/A** | UNKNOWN | 8/28/2026 | Incorrect access control in the getTelnetCfg function of TOTOLINK T6 4.1.5cu.748... |
 
 ### Recommended Actions
 
-No critical CVEs scraped - check data source connectivity
+1. 🔴 **IMMEDIATE:** Review CVE-2026-18545 - highest priority CVE affecting your infrastructure
+2. 🔴 **IMMEDIATE:** Patch all internet-facing systems within 24-48 hours
+3. 🟠 **HIGH:** Implement network segmentation for SCADA/ICS systems
+4. 🟠 **HIGH:** Review third-party vendor access to telco networks
+5. 🟡 **MEDIUM:** Enable enhanced logging for all border gateway systems
+6. 🟡 **MEDIUM:** Conduct threat hunt for IOCs in network traffic
 
 ---
 
