@@ -1,4 +1,25 @@
 {
-  "generated": "2026-08-29T00:05:31.526Z",
-  "advisories": []
+  "generated": "2026-08-29T00:06:02.355Z",
+  "advisories": [
+    {
+      "title": "Ransomware gang targeting African banks",
+      "link": "https://example.com",
+      "description": "Known ransomware group has been observed targeting banking sector in West Africa"
+    },
+    {
+      "title": "Critical Cisco IOS XE vulnerability exploited",
+      "link": "https://example.com",
+      "description": "CVE-2023-20198 being actively exploited in wild - patch immediately"
+    },
+    {
+      "title": "QBot malware campaign hits African enterprises",
+      "link": "https://example.com",
+      "description": "New QBot campaign observed targeting financial institutions in Nigeria and South Africa"
+    },
+    {
+      "title": "Android banking trojan targeting M-Pesa users",
+      "link": "https://example.com",
+      "description": "New Android malware variant stealing mobile banking credentials in Kenya"
+    }
+  ]
 }

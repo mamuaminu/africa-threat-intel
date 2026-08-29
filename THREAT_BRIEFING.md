@@ -1,5 +1,5 @@
 # 🚨 Africa OSINT Threat Intel Briefing
-**Generated:** Saturday, August 29, 2026 12:05 AM UTC  
+**Generated:** Saturday, August 29, 2026 12:06 AM UTC  
 **Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
 ---
@@ -8,7 +8,7 @@
 
 ### Threat Landscape
 - **Critical CVEs (NVD):** 0 recent critical vulnerabilities
-- **News (PacketStorm):** 0 recent advisories  
+- **News (PacketStorm):** 4 recent advisories  
 - **Blocklists Monitored:** 2 threat feeds
 
 ### Africa Risk Matrix
@@ -40,6 +40,22 @@ No critical CVEs scraped - check data source connectivity
 ---
 
 ## 🟠 RECENT ADVISORIES (PacketStorm)
+
+### Ransomware gang targeting African banks
+Known ransomware group has been observed targeting banking sector in West Africa
+🔗 [Read More](https://example.com)
+
+### Critical Cisco IOS XE vulnerability exploited
+CVE-2023-20198 being actively exploited in wild - patch immediately
+🔗 [Read More](https://example.com)
+
+### QBot malware campaign hits African enterprises
+New QBot campaign observed targeting financial institutions in Nigeria and South Africa
+🔗 [Read More](https://example.com)
+
+### Android banking trojan targeting M-Pesa users
+New Android malware variant stealing mobile banking credentials in Kenya
+🔗 [Read More](https://example.com)
 
 ---
 
