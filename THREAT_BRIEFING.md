@@ -1,98 +1,93 @@
 # 🚨 Africa OSINT Threat Intel Briefing
-**Generated:** Saturday, August 29, 2026 (2026-08-29T00:04:17.493Z)  
+**Generated:** Saturday, August 29, 2026 12:05 AM UTC  
 **Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-### Threat Landscape Overview
-- **Critical CVEs (CISA KEV):** 0 active exploited vulnerabilities
-- **Threat Pulses (AlienVault OTX):** 0 active pulses
+### Threat Landscape
+- **Critical CVEs (NVD):** 0 recent critical vulnerabilities
+- **News (PacketStorm):** 0 recent advisories  
 - **Blocklists Monitored:** 2 threat feeds
 
-## 🔴 CRITICAL VULNERABILITIES (CISA KEV)
+### Africa Risk Matrix
 
-| CVE ID | Vendor/Project | Product | CVSS | Date Added | Description |
-|--------|---------------|---------|------|------------|-------------|
-
-### Recommended Actions for African Infrastructure
-
-🔴 **IMMEDIATE:** Patch all CISA KEV catalog items affecting your infrastructure
-🔴 **IMMEDIATE:** Review and restrict lateral movement for systems exposed to internet
-🟠 **HIGH:** Implement network segmentation for critical SCADA/ICS systems
-🟠 **HIGH:** Enable enhanced logging for all border gateway systems
-🟡 **MEDIUM:** Review third-party vendor access to African telco networks
-🟡 **MEDIUM:** Audit DNS configurations for hijacking risks
-🟢 **ONGOING:** Threat hunt for IOCs from recent OTX pulses in network traffic
-
----
-
-## 🌍 AFRICA-SPECIFIC THREAT CONTEXT
-
-### Regional Threat Actors
-Based on current threat intelligence, the following threat patterns are relevant to African infrastructure:
-
-| Threat Pattern | Affected Countries | Risk Level | Notes |
-|---------------|-------------------|------------|-------|
-| Financial Fraud | Nigeria, Kenya, Ghana | 🔴 CRITICAL | Banking trojans, SIM swap fraud |
-| Infrastructure Attacks | South Africa, Egypt | 🟠 HIGH | Power grid targeting, critical infra |
-| Espionage | Morocco, Algeria, Ethiopia | 🟠 HIGH | State-sponsored activity |
-| Ransomware | Tanzania, Uganda | 🟡 MEDIUM | Growing threat, opportunistic |
-| Mobile Money Fraud | Kenya, Tanzania | 🔴 CRITICAL | M-Pesa and mobile banking targets |
-
-## 📡 THREAT FEEDS SUMMARY
-
-- **DShield Blocklist:** 1 entries (Top attacking IPs)
-- **Emerging Threats Compromised:** 536 entries (Known compromised/malicious IPs)
+| Country | Primary Threats | Risk Level |
+|---------|----------------|------------|
+| 🇳🇬 Nigeria | Banking trojans, ransomware, financial fraud | 🔴 CRITICAL |
+| 🇰🇪 Kenya | Mobile money fraud, M-Pesa targeting | 🔴 CRITICAL |
+| 🇿🇦 South Africa | Infrastructure attacks, financial cybercrime | 🟠 HIGH |
+| 🇬🇭 Ghana | Banking malware, business email compromise | 🟠 HIGH |
+| 🇪🇬 Egypt | State-sponsored espionage, critical infra | 🟠 HIGH |
+| 🇲🇦 Morocco | Diplomatic targeting, telecom espionage | 🟠 HIGH |
+| 🇹🇿 Tanzania | Ransomware, opportunistic attacks | 🟡 MEDIUM |
+| 🇺🇬 Uganda | Cybercrime, mobile money fraud | 🟡 MEDIUM |
+| 🇩🇿 Algeria | State-sponsored activity, surveillance | 🟠 HIGH |
+| 🇪🇹 Ethiopia | Infrastructure targeting, espionage | 🟠 HIGH |
 
 ---
 
-## 🎯 PRIORITY ACTIONS BY COUNTRY
+## 🔴 CRITICAL VULNERABILITIES (NVD - Last 90 Days)
 
-### Nigeria 🇳🇬
-- Patch critical CVEs affecting banking infrastructure
-- Monitor for Fancy Bear / APT41 activity targeting financial sector
-- Review BVN system security
+| CVE ID | CVSS | Severity | Published | Description |
+|--------|------|----------|-----------|-------------|
 
-### Kenya 🇰🇪
-- M-Pesa and mobile money security hardening
-- Safaricom network perimeter review
-- Election-related threat monitoring (if applicable)
+### Recommended Actions
 
-### South Africa 🇿🇦
-- Eskom/SCADA security assessment
-- Financial sector threat hunting
-- Port security monitoring
-
-### Ghana 🇬🇭
-- Banking trojan detection
-- Ecobank network monitoring
-
-### Egypt 🇪🇬
-- Critical infrastructure hardening
-- State-sponsored threat awareness
-
-### Morocco 🇲🇦
-- Diplomatic threat monitoring
-- Telecommunications security
+No critical CVEs scraped - check data source connectivity
 
 ---
 
-## 📋 TECHNICAL IOCs
+## 🟠 RECENT ADVISORIES (PacketStorm)
 
-*Generated from current threat feeds - see JSON export for full machine-readable data.*
+---
+
+## 📡 ACTIVE THREAT FEEDS
+
+| Source | Entries | Type | Purpose |
+|--------|---------|------|---------|
+| DShield Blocklist | 0 | IP Blocklist | Top attacking IPs |
+| Emerging Threats Compromised | 536 | IP Blocklist | Known compromised IPs |
+
+---
+
+## 🎯 COUNTRY-SPECIFIC ACTIONS
+
+### 🇳🇬 Nigeria
+- **Banking/Finance:** Audit BVN system, review SWIFT gateway security
+- **Telcos:** MTN, Airtel perimeter hardening
+- **Government:** NCC, CBN cybersecurity requirements
+
+### 🇰🇪 Kenya
+- **Mobile Money:** M-Pesa API security review, Safaricom network audit
+- **Financial:** CBK regulatory compliance check
+- **Critical Infra:** Kenya Power SCADA monitoring
+
+### 🇿🇦 South Africa
+- **Power Grid:** Eskom SCADA security assessment
+- **Finance:** Major bank threat hunting
+- **Ports:** Durban/Cape Town maritime cybersecurity
+
+---
+
+## 📋 TECHNICAL RECOMMENDATIONS
+
+1. **Patch Management:** Prioritize CVEs with CVSS 9.0+ on internet-facing systems
+2. **Network Monitoring:** Deploy Suricata/Snort rules for C2 traffic
+3. **Threat Intel Feeds:** Subscribe to Africa CERT advisories
+4. **Incident Response:** Pre-position IR team contacts for African region
 
 ---
 
 ## 📁 FILES
 
-- `cisa-kev.json` - Full CISA KEV catalog export
-- `otx-pulses.json` - AlienVault OTX pulse data
-- `threat-feeds.json` - Aggregated threat feed summary
+- `cves.json` - Recent critical CVEs from NVD
+- `advisories.json` - PacketStorm advisories  
+- `threat-feeds.json` - Aggregated threat feed data
 
 ---
 
-**Generated by Africa OSINT Threat Intel Aggregator**  
-*Automated threat intelligence for African infrastructure*  
-*Next update: Next scheduled run (6 hours)*
+**Africa OSINT Threat Intel Aggregator**  
+*Automated briefing for African infrastructure security teams*  
+*Refresh: Every 6 hours via cron*
