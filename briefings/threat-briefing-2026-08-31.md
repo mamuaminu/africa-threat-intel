@@ -1,7 +1,7 @@
 # 🛡️ Africa OSINT Threat Intel Briefing
-**Generated:** Mon, 31 Aug 2026 00:06:10 GMT  
+**Generated:** Mon, 31 Aug 2026 00:08:03 GMT  
 **Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia  
-**Data Sources:** CISA KEV, AlienVault OTX, NVD, Threat Feeds
+**Data Sources:** CIRCL CVE, AlienVault OTX, Blocklist.de, Emerging Threats, Ransomware Tracker
 
 ---
 
@@ -9,97 +9,89 @@
 
 | Metric | Value |
 |--------|-------|
-| CISA KEV Total Entries | 0 |
-| CISA KEV Africa-Relevant | 0 |
-| Active Critical CVEs (2026) | 0 |
+| CVEs Analyzed | 0 |
+| Critical CVEs (CVSS 9+) | 0 |
+| Africa-Relevant CVEs | 0 |
 | AlienVault OTX Pulses | 0 |
 | OTX Africa Pulses | 0 |
-| NVD Recent CVEs | 0 |
-| NVD Critical (CVSS 9+) | 0 |
+| OTX High-Threat Pulses | 0 |
 | Threat Feeds Online | 2/3 |
+| Ransomware Tracker | 🔴 Offline |
 
 ---
 
-## 🚨 Critical CVEs (Active Exploitation)
+## 🚨 Critical CVEs (CVSS 9.0+)
 
-*No critical Africa-relevant CVEs with known exploitation status found in current feed.*
-
----
-
-## 🔴 High-Threat AlienVault Pulses
-
-*No high-threat pulses currently active.*
+*No critical CVEs found in current analysis set.*
 
 ---
 
-## 🌍 Africa-Specific Vulnerabilities
+## 🔴 High-Threat OTX Pulses
 
-*No Africa-specific CVEs found in current CISA KEV catalog.*
+*No high-threat pulses in current subscription set.*
+
+---
+
+## 🌍 Africa-Specific Pulses
+
+*No Africa-specific pulses found — standard threat intelligence applies.*
 
 ---
 
 ## 📡 Threat Feed Status
 
-| Feed | Status | Details |
+| Feed | Status | Entries |
 |------|--------|---------|
-| URLhaus | ❌ Offline | HTTP 401 |
-| Blocklist.de | ✅ Online | 59 entries |
-| Emerging Threats | ✅ Online | 536 entries |
+| Blocklist.de | ✅ online | 59 |
+| Emerging Threats | ✅ online | 536 |
+| Emerging Threats CIDR | ❌ offline | HTTP 404 |
 
 ---
 
 ## 🦠 Ransomware Activity
 
-- **Status:** ❌ Tracker Unavailable
-- **Recent Activity:** 0 entries in 2026
+- **Tracker Status:** ❌ Offline
+- **2026 Entries:** 0
 
 ---
 
 ## ✅ Recommended Actions for African Infrastructure
 
-### Immediate (0-24 hours)
-1. **Patch CISA KEV Catalog entries** with known exploitation
-2. **Block emerging threat indicators** from AlienVault OTX Africa pulses
-3. **Audit external-facing services** in: Nigeria, Kenya, South Africa, Ghana, Egypt
-4. **Enable logging** on all critical infrastructure endpoints
-
-### Short-term (1-7 days)
-1. **Implement blocklist feeds** from URLhaus and Emerging Threats
-2. **Conduct vulnerability scan** focusing on CVSS 9+ vulnerabilities
-3. **Review MFA** on all administrative interfaces
+### Immediate (0-24h)
+1. **Patch all CVSS 9.0+ vulnerabilities** identified above
+2. **Block IP ranges** from Emerging Threats blocklist
+3. **Audit firewall rules** — deny known-malicious CIDRs from Blocklist.de
 4. **Monitor ransomware tracker** for Africa-targeted campaigns
 
-### Country-Specific Notes
-- **Nigeria:** No specific CVEs identified — maintain standard patching cadence
-- **Kenya:** No specific CVEs identified — maintain standard patching cadence
-- **South Africa:** No specific CVEs identified — maintain standard patching cadence
-- **Ghana:** No specific CVEs identified — maintain standard patching cadence
-- **Egypt:** No specific CVEs identified — maintain standard patching cadence
-- **Morocco:** No specific CVEs identified — maintain standard patching cadence
-- **Tanzania:** No specific CVEs identified — maintain standard patching cadence
-- **Uganda:** No specific CVEs identified — maintain standard patching cadence
-- **Algeria:** No specific CVEs identified — maintain standard patching cadence
-- **Ethiopia:** No specific CVEs identified — maintain standard patching cadence
+### Short-term (1-7 days)
+1. **Deploy emerging-threats blocklist** on perimeter gateways
+2. **Scan external-facing assets** for indicators matching OTX pulses
+3. **Enforce MFA** on all admin/privileged accounts
+4. **Review log aggregation** for IOCs from active pulses
 
----
+### Country-Specific Priority
+- **Nigeria:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Kenya:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **South Africa:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Ghana:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Egypt:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Morocco:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Tanzania:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Uganda:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Algeria:** Apply general patching cadence; monitor OTX for region-specific pulses
+- **Ethiopia:** Apply general patching cadence; monitor OTX for region-specific pulses
 
-## 📚 IOCs (Indicators of Compromise)
-
-*Sample IOC extraction from active pulses:*
-
-*No IOC data available from current feed pull.*
 ---
 
 ## 🔗 Data Sources
 
-- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/sites/default/files/feeds/known-exploited-vulnerabilities.json)
+- [CIRCL CVE Search](https://cve.cir.lu)
 - [AlienVault OTX](https://otx.alienvault.com)
-- [NVD - National Vulnerability Database](https://nvd.nist.gov)
-- [URLhaus - Malware URL Exchange](https://urlhaus.abuse.ch)
 - [Emerging Threats](https://rules.emergingthreats.net)
+- [Blocklist.de](https://www.blocklist.de)
 - [Ransomware Tracker](https://ransomwaretracker.abuse.ch)
+- [NVD / NIST](https://nvd.nist.gov)
 
 ---
 
-*🤖 Generated by Africa Threat Intel Aggregator | Sakamoto Build System*
-*Data freshness: Real-time aggregation from public threat intelligence sources*
+*🤖 Africa Threat Intel Aggregator | Sakamoto Build System | 2026-08-31T00:08:03.917Z*
