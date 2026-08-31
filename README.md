@@ -1,19 +1,39 @@
-# 🛡️ Africa Threat Intelligence Aggregator
+# 🛡️ Africa Threat Intel Aggregator
 
-Automated threat intelligence briefing for African infrastructure.
-
-## Latest Brief
-[THREAT_BRIEF.md](./THREAT_BRIEF.md)
+Automated OSINT threat intelligence briefing for African infrastructure.
 
 ## Coverage
-Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
-## Automated Sources
-- CISA KEV Catalog
-- NVD (National Vulnerability Database)
-- AlienVault OTX
-- Abuse.ch (FeodoTracker, ThreatFox)
-- Public threat feeds
+**Countries:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia
 
-## Automation
-Updated via GitHub Actions cron. Subscribe to this repo for alerts.
+## Data Sources
+
+| Source | Status | Description |
+|--------|--------|-------------|
+| NVD / NIST | ✅ Active | National Vulnerability Database CVE feed |
+| Blocklist.de | ✅ Active | Malicious IP blocklist |
+| Emerging Threats | ✅ Active | IDS/blocking rules |
+| Ransomware Tracker | 🔴 Offline | Abuse.ch ransomware tracking |
+| AlienVault OTX | 🔴 Requires API key | Pulse subscriptions |
+
+## Output
+
+- `briefings/threat-briefing-YYYY-MM-DD.md` — Daily markdown briefings
+- `latest-briefing.md` — Most recent briefing
+- `data/latest-data.json` — Raw JSON data
+
+## Automated Run
+
+```bash
+node /home/ubuntu/.openclaw/workspace/scripts/sakamoto-build.js
+```
+
+## Notes
+
+- NVD API rate-limits bulk queries; some CVE IDs may fail to fetch
+- OTX public pulses require authentication; limited data without API key
+- Ransomware Tracker feed was unreachable at last check
+
+---
+
+*🤖 Sakamoto Build System*
