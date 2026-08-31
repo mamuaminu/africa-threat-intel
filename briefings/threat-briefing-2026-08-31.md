@@ -1,5 +1,5 @@
 # 🛡️ Africa OSINT Threat Intel Briefing
-**Generated:** Mon, 31 Aug 2026 00:05:27 GMT  
+**Generated:** Mon, 31 Aug 2026 00:06:10 GMT  
 **Coverage:** Nigeria, Kenya, South Africa, Ghana, Egypt, Morocco, Tanzania, Uganda, Algeria, Ethiopia  
 **Data Sources:** CISA KEV, AlienVault OTX, NVD, Threat Feeds
 
